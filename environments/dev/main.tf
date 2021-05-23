@@ -52,7 +52,7 @@ provider "google" {
   zone    = "us-central1-c"
 }
 resource "google_compute_network" "vpc_network" {
-  name = "terraform-network"
+  name = "terraform-network-01"
 }
 resource "google_compute_subnetwork" "public-subnetwork" {
   name          = "terraform-subnetwork"
