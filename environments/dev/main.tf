@@ -39,6 +39,8 @@
 #  subnet  = "${module.vpc.subnet}"
 #}
 
+#Creating VPC and subnet
+
 locals {
   env = "dev"
   project_id = "cloudbuild-trigger"
